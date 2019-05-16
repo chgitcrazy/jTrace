@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.12)
+project(jTrace)
+
+set(CMAKE_CXX_STANDARD 14)
+set(INCLUDE_DIR /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include)
+set(INCLUDE_DIR1 /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include/darwin)
+include_directories(${INCLUDE_DIR})
+include_directories(${INCLUDE_DIR1})
+#add_executable(jvm_tech main.cpp)
+add_library(jTrace SHARED main.cpp)
