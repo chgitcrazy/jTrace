@@ -1,2 +1,2 @@
-MacOS:g++ main.cpp -I/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/include -fPIC  -shared -o libjvm_tech.dylib
+MacOS:g++ g++ main.cpp -I /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/include/darwin -I /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/include/ -fPIC  -shared -o jtrace.dylib
 Linux:g++ main.cpp -I/usr/local/jdk1.8.0_45/include/linux -I/usr/local/jdk1.8.0_45/include/ -fPIC -shared -o jvm_tech.so
