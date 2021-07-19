@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++ -g -dynamiclib -Wl,-headerpad_max_install_names  -o libjTrace.dylib -install_name @rpath/libjTrace.dylib CMakeFiles/jTrace.dir/main.cpp.o 

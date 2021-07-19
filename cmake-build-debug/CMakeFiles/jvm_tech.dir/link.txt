@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++ -g -dynamiclib -Wl,-headerpad_max_install_names  -o libjvm_tech.dylib -install_name @rpath/libjvm_tech.dylib CMakeFiles/jvm_tech.dir/main.cpp.o 
